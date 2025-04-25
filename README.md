@@ -1,1 +1,3 @@
-# Can-t-Stop-Probability-Strategy-Simulator
+# Cant-Stop-Probability-Strategy-Simulator
+
+Implemented a C++ program to exhaustively enumerate all 1,296 possible four dice outcomes and validate advancing/busting probabilities for target columns (3, 8, 11) and (2, 4, 11), achieving sub 0.00001 precision. Extended the tool into a Monte Carlo simulator (1 000 000 trials) to estimate busting risks per throw and used expected value calculations to derive optimal “roll or stop” strategies up to five throws. Employed object oriented design for dice roll generation, pair sum checking, probability counters and result reporting, and analysed trade offs between risk and reward in gameplay decisions.
